@@ -1,3 +1,6 @@
+import ButtonLink from "@/components/ui/ButtonLink";
+import Image from "next/image";
+
 export default function Hero() {
   return (
     <section className="bg-paper">
@@ -6,33 +9,31 @@ export default function Hero() {
           <p className="text-sm font-medium uppercase tracking-[0.24em] text-accent">
             Escritora
           </p>
-          <h1 className="mt-5 text-5xl font-semibold leading-[1.02] text-text sm:text-6xl lg:text-7xl">
+          <h1 className="mt-5 text-5xl font-semibold leading-[1.02] text-ink sm:text-6xl lg:text-7xl">
             Ann C. Kigal
           </h1>
           <p className="mt-6 max-w-xl text-lg leading-8 text-muted">
-            Frase breve pendiente para presentar la voz, el genero y el mundo
-            literario de Ann C. Kigal.
+            Espacio provisional para presentar la obra, el tono y el universo
+            creativo de Ann cuando estén definidos los textos finales.
           </p>
+
           <div className="mt-8 flex flex-wrap gap-3">
-            <a
-              className="inline-flex min-h-11 items-center justify-center border border-accent bg-accent px-5 text-sm font-semibold text-paper transition hover:bg-accent-strong"
-              href="/books"
-            >
-              Ver libros
-            </a>
-            <a
-              className="inline-flex min-h-11 items-center justify-center border border-line px-5 text-sm font-semibold text-text transition hover:border-accent hover:text-accent"
-              href="/about"
-            >
-              Sobre la autora
-            </a>
+            <ButtonLink href="/books" variant="sage">
+              Descubrir libros
+            </ButtonLink>
+            <ButtonLink href="/about">Conocer a Ann</ButtonLink>
           </div>
         </div>
 
-        <div className="relative min-h-[360px] overflow-hidden border border-line bg-parchment lg:min-h-[520px]">
-          <div className="absolute left-10 top-10 max-w-48 text-sm leading-6 text-muted">
-            Imagen de ann
-          </div>
+        <div className="relative min-h-[360px] overflow-hidden rounded-lg border border-line bg-clay lg:min-h-[520px]">
+          <Image
+            src="/images/fotobase.png"
+            alt="Imagen editorial provisional de Ann C. Kigal"
+            fill
+            priority
+            className="object-cover"
+            sizes="(min-width: 1024px) 448px, 100vw"
+          />
         </div>
       </div>
     </section>
