@@ -1,20 +1,21 @@
 @import "tailwindcss";
 
 :root {
-  --paper: #f8f1e6;
-  --parchment: #eadcc6;
-  --sage: #52743a;
-  --leather: #694114;
-  --clay: #6a2e17;
-  --ink: #392517;
+  --paper: #fbf4e8;
+  --parchment: #dec9a0;
+  --sage: #8d9a68;
+  --leather: #7e5629;
+  --copper: #9a431c;
+  --clay: #6f3016;
+  --ink: #422b1d;
 
-  --surface: var(--parchment);
-  --surface-strong: var(--sage);
-  --line: var(--parchment);
+  --surface: var(--paper);
+  --surface-strong: var(--clay);
+  --line: var(--sage);
   --text: var(--ink);
   --muted: var(--leather);
-  --accent: var(--sage);
-  --accent-strong: var(--ink);
+  --accent: var(--copper);
+  --accent-strong: var(--clay);
 
   --background: var(--paper);
   --foreground: var(--text);
@@ -27,6 +28,7 @@
   --color-parchment: var(--parchment);
   --color-sage: var(--sage);
   --color-leather: var(--leather);
+  --color-copper: var(--copper);
   --color-clay: var(--clay);
   --color-ink: var(--ink);
   --color-surface: var(--surface);
