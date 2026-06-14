@@ -4,7 +4,7 @@ export default function NewsletterPage() {
       <p className="text-sm font-medium uppercase tracking-[0.2em] text-muted">
         Newsletter
       </p>
-      <h1 className="mt-4 text-4xl font-semibold text-text sm:text-5xl">
+      <h1 className="mt-4 text-4xl font-semibold text-ink sm:text-5xl">
         Newsletter
       </h1>
       <p className="mt-6 max-w-2xl text-lg leading-8 text-muted">
