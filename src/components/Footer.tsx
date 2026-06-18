@@ -6,7 +6,7 @@ const socialLinks = [
 
 export default function Footer() {
   return (
-    <footer className="border-t border-line bg-ink text-paper">
+    <footer className="bg-ink text-paper">
       <div className="mx-auto grid w-full max-w-7xl items-center gap-6 px-6 py-5 text-sm md:grid-cols-[1fr_auto]">
         <p className="text-center leading-6 md:text-left">
           &copy; 2026 Ann C. Kigal
@@ -16,7 +16,7 @@ export default function Footer() {
           {socialLinks.map((link) => (
             <a
               aria-label={link.label}
-              className="flex size-9 items-center justify-center rounded-lg bg-paper shadow-sm transition duration-200 hover:-translate-y-0.5 hover:bg-parchment hover:shadow-md active:translate-y-0"
+              className="flex size-9 items-center justify-center rounded-xl bg-paper shadow-sm transition duration-200 hover:-translate-y-0.5 hover:bg-parchment hover:shadow-md active:translate-y-0"
               href={link.href}
               key={link.label}
             >

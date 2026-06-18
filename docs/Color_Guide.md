@@ -1,6 +1,6 @@
 # Guia de color
 
-Usamos solo los colores definidos en `app/globals.css`. No uses clases como
+Se usan solo los colores definidos en `app/globals.css`. No clases como
 `text-neutral-*`, `bg-white`, `border-gray-*` ni hex directos en componentes.
 
 ## Reglas principales
@@ -8,7 +8,7 @@ Usamos solo los colores definidos en `app/globals.css`. No uses clases como
 `parchment`
 
 Estados interactivos suaves: hover, transiciones o feedback visual. Tambien se
-permite como estado activo de botones solo en el navbar. No lo uses como fondo
+permite como estado activo de botones solo en el navbar. No  como fondo
 global, fondo fijo de cards, secciones internas ni elementos destacados.
 
 ```tsx
@@ -40,7 +40,7 @@ principal debe ser `paper`.
 
 `ink`
 
-Footer y detalles muy oscuros. Reservalo para cierres, texto principal sobre
+Footer y detalles muy oscuros. Reservado para cierres, texto principal sobre
 fondos claros y elementos que tengan que sentirse mas solidos.
 
 ```tsx

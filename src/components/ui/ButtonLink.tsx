@@ -10,7 +10,7 @@ type ButtonLinkProps = {
 };
 
 const baseClassName =
-  "inline-flex min-h-11 items-center justify-center rounded-lg px-6 text-sm font-semibold no-underline shadow-sm transition duration-200 hover:-translate-y-0.5 hover:shadow-md active:translate-y-0";
+  "inline-flex min-h-11 items-center justify-center rounded-xl px-6 text-sm font-semibold no-underline shadow-sm transition duration-200 hover:-translate-y-0.5 hover:shadow-md active:translate-y-0";
 
 const variantClassNames: Record<ButtonLinkVariant, string> = {
   accent: "bg-accent text-paper hover:bg-accent-strong",

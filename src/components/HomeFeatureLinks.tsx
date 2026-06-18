@@ -1,14 +1,7 @@
 import ButtonLink from "@/components/ui/ButtonLink";
+import Image from "next/image";
 
-const featureLinks = [
-  {
-    title: "Último libro publicado",
-    text: "Espacio reservado para destacar la obra más reciente, su atmósfera y el tipo de lector al que invita.",
-    action: "Ver libro",
-    href: "/books",
-    featured: true,
-  },
-  
+const secondaryLinks = [
   {
     title: "Servicios de corrección y edición",
     text: "Acompañamiento para manuscritos que necesitan pulir estilo, estructura y coherencia narrativa.",
@@ -26,49 +19,51 @@ const featureLinks = [
 export default function HomeFeatureLinks() {
   return (
     <section className="bg-paper">
-      <div className="mx-auto max-w-5xl px-6 py-20">
-        <div className="grid gap-5 md:grid-cols-2">
-          {featureLinks.map((item) => (
+      <div className="mx-auto max-w-6xl border-y border-line px-6 py-20">
+        <article className="grid overflow-hidden rounded-xl border border-line bg-clay text-paper lg:grid-cols-[1fr_0.48fr]">
+          <div className="p-8 sm:p-10">
+            <p className="text-sm font-medium uppercase tracking-[0.2em] text-sage">
+              Obra destacada
+            </p>
+            <h2 className="mt-4 max-w-2xl text-3xl font-semibold text-paper sm:text-4xl">
+              Último libro publicado
+            </h2>
+            <p className="mt-5 max-w-2xl text-base leading-8 text-paper">
+              Espacio reservado para destacar la obra más reciente, su
+              atmósfera y el tipo de lector al que invita.
+            </p>
+            <ButtonLink className="mt-7" href="/books" variant="light">
+              Ver libro
+            </ButtonLink>
+          </div>
+
+          <div className="relative min-h-72 border-t border-line bg-ink lg:min-h-full lg:border-l lg:border-t-0">
+            <Image
+              src="/images/fotobase.png"
+              alt="Imagen provisional para el libro destacado"
+              fill
+              className="object-cover opacity-90"
+              sizes="(min-width: 1024px) 430px, 100vw"
+            />
+          </div>
+        </article>
+
+        <div className="mt-6 grid gap-4 md:grid-cols-2">
+          {secondaryLinks.map((item) => (
             <article
-              className={
-                item.featured
-                  ? "min-h-72 rounded-lg border border-line bg-clay p-8 text-paper md:col-span-2"
-                  : "min-h-64 rounded-lg border border-line bg-paper p-7 text-ink"
-              }
+              className="flex h-full flex-col rounded-xl border border-line bg-paper p-6 text-ink"
               key={item.title}
             >
-              <p
-                className={
-                  item.featured
-                    ? "text-sm font-medium uppercase tracking-[0.2em] text-sage"
-                    : "text-sm font-medium uppercase tracking-[0.2em] text-accent"
-                }
-              >
-                {item.featured ? "Obra destacada" : "Explorar"}
-              </p>
-              <h3
-                className={
-                  item.featured
-                    ? "mt-4 text-3xl font-semibold text-paper"
-                    : "mt-4 text-xl font-semibold text-ink"
-                }
-              >
-                {item.title}
-              </h3>
-              <p
-                className={
-                  item.featured
-                    ? "mt-4 max-w-2xl text-base leading-8 text-paper"
-                    : "mt-4 min-h-24 text-sm leading-7 text-muted"
-                }
-              >
-                {item.text}
-              </p>
-              <ButtonLink
-                className="mt-6 px-5"
-                href={item.href}
-                variant={item.featured ? "light" : "sage"}
-              >
+              <div className="flex items-start justify-between gap-5">
+                <div>
+                  
+                  <h3 className="mt-3 text-2xl font-semibold text-ink">
+                    {item.title}
+                  </h3>
+                </div>
+              </div>
+              <p className="mb-6 mt-4 text-sm leading-7 text-muted">{item.text}</p>
+              <ButtonLink className="mt-auto w-fit px-5" href={item.href} variant="sage">
                 {item.action}
               </ButtonLink>
             </article>
