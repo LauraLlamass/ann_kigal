@@ -1,6 +1,6 @@
 const socialLinks = [
-  { label: "Instagram", href: "#", icon: "/icons/instagram.svg" },
-  { label: "TikTok", href: "#", icon: "/icons/tiktok.svg" },
+  { label: "Instagram", href: "https://www.instagram.com/annkigal/", icon: "/icons/instagram.svg" },
+  { label: "TikTok", href: "https://www.tiktok.com/@annkigal?lang=es-419", icon: "/icons/tiktok.svg" },
   { label: "Gmail", href: "#", icon: "/icons/gmail.svg" },
 ];
 

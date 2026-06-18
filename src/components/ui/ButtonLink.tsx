@@ -13,9 +13,9 @@ const baseClassName =
   "inline-flex min-h-11 items-center justify-center rounded-xl px-6 text-sm font-semibold no-underline shadow-sm transition duration-200 hover:-translate-y-0.5 hover:shadow-md active:translate-y-0";
 
 const variantClassNames: Record<ButtonLinkVariant, string> = {
-  accent: "bg-accent text-paper hover:bg-accent-strong",
+  accent: "bg-copper text-paper hover:bg-clay",
   light: "bg-paper text-clay hover:bg-parchment hover:text-ink",
-  sage: "bg-sage text-ink hover:bg-parchment",
+  sage: "bg-sage text-paper hover:bg-parchment hover:text-ink",
 };
 
 export default function ButtonLink({

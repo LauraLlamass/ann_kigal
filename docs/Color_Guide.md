@@ -53,6 +53,10 @@ fondos claros y elementos que tengan que sentirse mas solidos.
 Botones, llamadas a la accion y enlaces importantes. Es el color que indica
 accion.
 
+Si un elemento usa `bg-copper`, su texto debe ser `paper`. Esta regla tambien
+esta reforzada en `app/globals.css` para que cualquier `bg-copper` herede texto
+claro por defecto.
+
 ```tsx
 <a className="bg-copper text-paper hover:bg-clay" />
 <a className="text-copper hover:text-clay" />
@@ -66,7 +70,7 @@ igual y la interfaz se siente consistente.
 
 ```tsx
 <a className="bg-paper text-clay hover:bg-parchment" />
-<a className="bg-sage text-ink hover:bg-parchment" />
+<a className="bg-sage text-paper hover:bg-parchment hover:text-ink" />
 <a className="bg-clay text-paper hover:bg-parchment hover:text-ink" />
 ```
 
@@ -90,9 +94,14 @@ seccion.
 Lineas, separadores y acentos suaves. Usalo para bordes, divisores y estados
 secundarios discretos.
 
+Si un elemento usa `bg-sage`, su texto debe ser `paper`. Esta regla tambien
+esta reforzada en `app/globals.css` para que cualquier `bg-sage` herede texto
+claro por defecto.
+
 ```tsx
 <div className="border border-line" />
 <a className="text-paper hover:text-sage" />
+<a className="bg-sage text-paper hover:bg-parchment hover:text-ink" />
 ```
 
 ## Alias utiles

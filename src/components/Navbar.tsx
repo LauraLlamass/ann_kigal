@@ -6,11 +6,10 @@ import { useState } from "react";
 
 const links = [
   { href: "/", label: "Inicio" },
-  { href: "/about", label: "Sobre mí" },
-  { href: "/newsletter", label: "Newsletter" },
-  { href: "/books", label: "Libros" },
   { href: "/projects", label: "Proyectos" },
   { href: "/services", label: "Servicios" },
+  { href: "/newsletter", label: "Newsletter" },
+  { href: "/about", label: "Sobre mí" },
   { href: "/contact", label: "Contacto" },
 ];
 
@@ -24,7 +23,7 @@ export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50  bg-ink text-paper">
+    <header className="sticky top-0 z-50 bg-ink text-paper">
       <nav className="w-full px-6" aria-label="Principal">
         <div className="flex min-h-16 items-center justify-between gap-6">
           <Link
