@@ -7,7 +7,7 @@ export default function SocialProof() {
           Espacio reservado para una frase breve de la obra, una cita editorial
           o una línea que presente la voz literaria de Ann.
         </blockquote>
-        <p className="mt-5 text-xs font-semibold uppercase tracking-[0.18em] text-sage">
+        <p className="mt-5 text-xs font-semibold uppercase tracking-[0.18em] text-paper">
           Ann C. Kigal
         </p>
       </div>

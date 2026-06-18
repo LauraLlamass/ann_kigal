@@ -13,7 +13,7 @@ export default function Hero() {
     <section className="bg-paper">
       <div className="mx-auto grid w-full max-w-6xl items-center gap-10 px-6 py-10 lg:min-h-[690px] lg:grid-cols-[1fr_0.78fr] lg:gap-14 lg:py-12">
         <div className="max-w-2xl">
-          <p className="text-sm font-medium uppercase tracking-[0.24em] text-accent">
+          <p className="text-sm font-medium uppercase tracking-[0.24em] text-copper">
             Escritora
           </p>
           <h1 className="mt-4 text-5xl font-semibold leading-[1.02] text-ink sm:text-6xl lg:text-7xl">
@@ -25,8 +25,8 @@ export default function Hero() {
           </p>
 
           <div className="mt-7 flex flex-wrap gap-3">
-            <ButtonLink href="/books" variant="sage">
-              Descubrir libros
+            <ButtonLink href="/projects/idreka" variant="sage">
+              Entrar a Idreka
             </ButtonLink>
           </div>
 

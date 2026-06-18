@@ -22,7 +22,7 @@ export default function HomeFeatureLinks() {
       <div className="mx-auto max-w-6xl border-y border-line px-6 py-20">
         <article className="grid overflow-hidden rounded-xl border border-line bg-clay text-paper lg:grid-cols-[1fr_0.48fr]">
           <div className="p-8 sm:p-10">
-            <p className="text-sm font-medium uppercase tracking-[0.2em] text-sage">
+            <p className="text-sm font-medium uppercase tracking-[0.2em] text-paper">
               Obra destacada
             </p>
             <h2 className="mt-4 max-w-2xl text-3xl font-semibold text-paper sm:text-4xl">
@@ -32,19 +32,25 @@ export default function HomeFeatureLinks() {
               Espacio reservado para destacar la obra más reciente, su
               atmósfera y el tipo de lector al que invita.
             </p>
-            <ButtonLink className="mt-7" href="/books" variant="light">
+            <ButtonLink
+              className="mt-7"
+              href="/projects/idreka/dos-legados-de-furia"
+              variant="light"
+            >
               Ver libro
             </ButtonLink>
           </div>
 
-          <div className="relative min-h-72 border-t border-line bg-ink lg:min-h-full lg:border-l lg:border-t-0">
-            <Image
-              src="/images/fotobase.png"
-              alt="Imagen provisional para el libro destacado"
-              fill
-              className="object-cover opacity-90"
-              sizes="(min-width: 1024px) 430px, 100vw"
-            />
+          <div className="flex items-center justify-center border-t border-line p-4 ">
+            <div className="relative aspect-[2/3] w-full max-w-52 overflow-hidden rounded-xl border border-line bg-ink shadow-md">
+              <Image
+                src="/images/DLDF.jpg"
+                alt="Imagen provisional para el libro destacado"
+                fill
+                className="object-contain"
+                sizes="(min-width: 1024px) 256px, 70vw"
+              />
+            </div>
           </div>
         </article>
 

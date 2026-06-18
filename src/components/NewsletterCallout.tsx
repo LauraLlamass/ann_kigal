@@ -5,7 +5,7 @@ export default function NewsletterCallout() {
     <section className="bg-clay text-paper">
       <div className="mx-auto grid max-w-5xl gap-8 px-6 py-16 md:grid-cols-[1fr_auto] md:items-end">
         <div>
-          <p className="text-sm font-medium uppercase tracking-[0.22em] text-sage">
+          <p className="text-sm font-medium uppercase tracking-[0.22em] text-paper">
             Newsletter
           </p>
           <h2 className="mt-4 max-w-2xl text-3xl font-semibold text-paper">
