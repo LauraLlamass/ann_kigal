@@ -1,9 +1,9 @@
 const bookDetails = [
-  "Enemies to lovers",
-  "Fantasia romantica",
-  "Secretos familiares",
+  "Fantasía romántica",
+  "Fantástica de acción y aventura",
+  "Fantasía épica",
   "Magia antigua",
-  "Tension lenta",
+  "Slow burn",
   "Saga en desarrollo",
 ];
 
@@ -11,7 +11,7 @@ export default function BookDetails() {
   return (
     <section className="border-t border-line bg-paper">
       <div className="mx-auto max-w-6xl px-6 py-16">
-        <p className="text-sm font-semibold uppercase tracking-[0.22em] text-accent">
+        <p className="text-sm font-semibold uppercase tracking-[0.22em] text-copper">
           Dentro del libro
         </p>
         <h2 className="mt-3 text-4xl font-semibold text-ink sm:text-5xl">

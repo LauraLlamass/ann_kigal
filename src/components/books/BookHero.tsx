@@ -4,27 +4,20 @@ import Image from "next/image";
 export default function BookHero() {
   return (
     <section className="mx-auto grid w-full max-w-6xl items-center gap-10 px-6 py-16 lg:min-h-[680px] lg:grid-cols-[0.78fr_1fr] lg:py-20">
-      <div className="relative mx-auto aspect-[3/4] w-full max-w-sm overflow-hidden rounded-xl border border-line bg-clay shadow-md lg:mx-0">
+      <div className="relative mx-auto aspect-[2/3] w-full max-w-sm overflow-hidden rounded-xl border border-line bg-clay shadow-md lg:mx-0">
         <Image
-          src="/images/fotobase.png"
+          src="/images/DLDF.jpg"
           alt="Portada provisional del libro"
           fill
           priority
-          className="object-cover"
+          className="object-contain p-3"
           sizes="(min-width: 1024px) 384px, 100vw"
         />
-        <div className="absolute inset-x-6 bottom-6 rounded-xl border border-line bg-paper/90 p-5 text-ink shadow-sm">
-          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-accent">
-            Libro destacado
-          </p>
-          <p className="mt-2 text-2xl font-semibold leading-none">
-            Dos legados de furia
-          </p>
-        </div>
+
       </div>
 
       <div>
-        <p className="text-sm font-semibold uppercase tracking-[0.24em] text-accent">
+        <p className="text-sm font-semibold uppercase tracking-[0.24em] text-copper">
           Saga pendiente · Libro I
         </p>
         <h1 className="mt-4 max-w-3xl text-3xl font-semibold leading-[0.98] text-ink sm:text-4xl lg:text-5xl">

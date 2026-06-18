@@ -2,7 +2,7 @@ export default function BookSynopsis() {
   return (
     <section className="mx-auto grid max-w-6xl gap-10 px-6 py-16 lg:grid-cols-[0.42fr_1fr] lg:py-20">
       <div>
-        <p className="text-sm font-semibold uppercase tracking-[0.22em] text-accent">
+        <p className="text-sm font-semibold uppercase tracking-[0.22em] text-copper">
           Sinopsis
         </p>
         <h2 className="mt-3 text-4xl font-semibold text-ink sm:text-5xl">
