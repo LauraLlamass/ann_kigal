@@ -9,7 +9,7 @@ export default function AboutHero() {
           <h1 className="mt-4 max-w-3xl text-4xl font-semibold text-ink sm:text-5xl lg:text-6xl">
             Ann C. Kigal
           </h1>
-          <p className="mt-6 max-w-2xl text-lg leading-8 text-muted">
+          <p className="mt-6 max-w-2xl text-justify text-lg leading-8 text-muted">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             Etiam ultrices tellus ut auctor venenatis. Vivamus eget nisi lacus.
             Proin eget viverra risus. Nam in pretium ex. Morbi faucibus arcu sem,
@@ -19,7 +19,7 @@ export default function AboutHero() {
             Quisque nec iaculis velit, id lobortis nulla.
           </p>
 
-          <p className="mt-6 max-w-2xl text-lg leading-8 text-muted">
+          <p className="mt-6 max-w-2xl text-justify text-lg leading-8 text-muted">
             Duis sagittis, urna vitae venenatis facilisis, risus risus rhoncus nisl, 
             at cursus metus nisl et lorem. Nulla sed lectus tempor, varius urna quis, 
             laoreet risus. Cras erat diam, elementum sed nisl vitae, molestie rutrum diam. 

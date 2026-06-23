@@ -16,7 +16,7 @@ export default function ServicesPage() {
             key={service}
           >
             <h2 className="text-xl font-medium text-ink">{service}</h2>
-            <p className="mt-3 text-muted">
+            <p className="mt-3 text-justify text-muted">
               Focused support to move your project from idea to polished
               experience.
             </p>

@@ -12,7 +12,7 @@ export default function HomeFeatureLinks() {
             <h2 className="mt-4 max-w-2xl text-3xl font-semibold text-paper sm:text-4xl">
               Último libro publicado
             </h2>
-            <p className="mt-5 max-w-2xl text-base leading-8 text-paper">
+            <p className="mt-5 max-w-2xl text-justify text-base leading-8 text-paper">
               Espacio reservado para destacar la obra más reciente, su
               atmósfera y el tipo de lector al que invita.
             </p>

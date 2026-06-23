@@ -20,7 +20,7 @@ export default function ProjectsList() {
           <h1 className="mt-4 text-4xl font-semibold text-ink sm:text-5xl">
             Proyectos abiertos
           </h1>
-          <p className="mt-5 max-w-2xl text-base leading-8 text-muted">
+          <p className="mt-5 max-w-2xl text-justify text-base leading-8 text-muted">
             Espacio para reunir los libros, ilustraciones y trabajos creativos
             que estan activos o preparados para consulta.
           </p>
@@ -51,7 +51,7 @@ export default function ProjectsList() {
                 <h2 className="mt-3 text-2xl font-semibold text-ink">
                   {project.title}
                 </h2>
-                <p className="mt-3 text-sm leading-7 text-muted">
+                <p className="mt-3 text-justify text-sm leading-7 text-muted">
                   {project.text}
                 </p>
                 <ButtonLink

@@ -9,7 +9,7 @@ export default function IdrekaMap() {
           <h2 className="mt-3 text-4xl font-semibold text-paper sm:text-5xl">
             Regiones por descubrir
           </h2>
-          <p className="mt-5 text-base leading-8 text-paper">
+          <p className="mt-5 text-justify text-base leading-8 text-paper">
             Aqui encajara el mapa interactivo. La idea: al pinchar una region,
             se abre un panel con su historia, clima, reino, conflictos y
             conexiones con la saga.

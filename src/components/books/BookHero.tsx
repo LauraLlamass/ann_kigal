@@ -26,7 +26,7 @@ export default function BookHero() {
         <blockquote className="mt-7 max-w-2xl border-l border-line pl-5 text-2xl font-medium italic leading-9 text-muted">
           "Frase rechulona que me tienes que decir jvbrg vñjsgvnvbejv hvbev ihggbev shgvbsv ."
         </blockquote>
-        <p className="mt-6 max-w-2xl text-base leading-8 text-muted">
+        <p className="mt-6 max-w-2xl text-justify text-base leading-8 text-muted">
           Presentacion provisional del universo del libro: su tono, su saga y
           la promesa emocional que encontrara quien entre en la historia.
         </p>

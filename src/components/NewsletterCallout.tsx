@@ -11,7 +11,7 @@ export default function NewsletterCallout() {
           <h2 className="mt-4 max-w-2xl text-3xl font-semibold text-paper">
             Recibe novedades y cartas de Ann
           </h2>
-          <p className="mt-4 max-w-2xl text-base leading-8 text-paper">
+          <p className="mt-4 max-w-2xl text-justify text-base leading-8 text-paper">
             Una pequeña puerta a nuevos libros, procesos creativos, lecturas,
             ilustraciones y noticias antes de que lleguen a la web.
           </p>

@@ -16,7 +16,7 @@ export default function IdrekaDoors() {
           <h3 className="mt-3 text-2xl font-semibold text-ink">
             Dos legados de furia
           </h3>
-          <p className="mt-3 text-sm leading-7 text-muted">
+          <p className="mt-3 text-justify text-sm leading-7 text-muted">
             La primera entrada a la saga, con sinopsis, personajes y detalles
             del tono narrativo.
           </p>
@@ -36,7 +36,7 @@ export default function IdrekaDoors() {
           <h3 className="mt-3 text-2xl font-semibold text-ink">
             Regiones y reinos
           </h3>
-          <p className="mt-3 text-sm leading-7 text-muted">
+          <p className="mt-3 text-justify text-sm leading-7 text-muted">
             Bloque preparado para fichas de regiones, reinos, templos o
             territorios cuando el mapa este listo.
           </p>

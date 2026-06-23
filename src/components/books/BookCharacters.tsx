@@ -29,7 +29,7 @@ export default function BookCharacters() {
               Rostros que habitan la historia
             </h2>
           </div>
-          <p className="max-w-md text-sm leading-7 text-paper">
+          <p className="max-w-md text-justify text-sm leading-7 text-paper">
             Este tramo queda preparado para ilustraciones, fichas visuales o
             pequenos detalles de cada personaje importante.
           </p>
@@ -58,7 +58,7 @@ export default function BookCharacters() {
                 <h3 className="mt-3 text-2xl font-semibold text-ink">
                   {character.name}
                 </h3>
-                <p className="mt-3 text-sm leading-7 text-muted">
+                <p className="mt-3 text-justify text-sm leading-7 text-muted">
                   {character.note}
                 </p>
               </div>

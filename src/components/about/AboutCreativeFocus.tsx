@@ -27,7 +27,7 @@ export default function AboutCreativeFocus() {
               <h3 className="text-2xl font-semibold text-ink">
                 {item.title}
               </h3>
-              <p className="mt-4 text-base leading-7 text-ink">
+              <p className="mt-4 text-justify text-base leading-7 text-ink">
                 {item.text}
               </p>
             </article>

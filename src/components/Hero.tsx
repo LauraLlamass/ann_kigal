@@ -17,7 +17,7 @@ export default function Hero() {
           <h1 className="mt-4 text-5xl font-semibold leading-[1.02] text-ink sm:text-6xl lg:text-7xl">
             Ann C. Kigal
           </h1>
-          <p className="mt-5 max-w-lg text-base leading-7 text-muted sm:text-lg sm:leading-8">
+          <p className="mt-5 max-w-lg text-justify text-base leading-7 text-muted sm:text-lg sm:leading-8">
             Espacio provisional para presentar la obra, el tono y el universo
             creativo de Ann cuando estén definidos los textos finales.
           </p>

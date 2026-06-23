@@ -26,7 +26,7 @@ export default function HomeFeatureLinks() {
             <h2 className="mt-4 max-w-2xl text-3xl font-semibold text-paper sm:text-4xl">
               Último libro publicado
             </h2>
-            <p className="mt-5 max-w-2xl text-base leading-8 text-paper">
+            <p className="mt-5 max-w-2xl text-justify text-base leading-8 text-paper">
               Espacio reservado para destacar la obra más reciente, su
               atmósfera y el tipo de lector al que invita.
             </p>
@@ -66,7 +66,7 @@ export default function HomeFeatureLinks() {
                   </h3>
                 </div>
               </div>
-              <p className="mb-6 mt-4 text-sm leading-7 text-muted">{item.text}</p>
+              <p className="mb-6 mt-4 text-justify text-sm leading-7 text-muted">{item.text}</p>
               <ButtonLink className="mt-auto w-fit px-5" href={item.href} variant="sage">
                 {item.action}
               </ButtonLink>

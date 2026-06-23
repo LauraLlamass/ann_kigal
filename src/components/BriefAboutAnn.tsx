@@ -22,7 +22,7 @@ export default function BriefAboutAnn() {
           <p className="mt-3 text-sm font-semibold uppercase tracking-[0.16em] text-muted">
             Autora · Editora · Ilustradora
           </p>
-          <p className="mt-5 max-w-2xl text-base leading-8 text-muted">
+          <p className="mt-5 max-w-2xl text-justify text-base leading-8 text-muted">
             Bio breve provisional: quién es, qué escribe, qué temas atraviesan
             su obra y por qué el lector debería seguir leyendo.
           </p>

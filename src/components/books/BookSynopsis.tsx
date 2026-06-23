@@ -9,30 +9,30 @@ export default function BookSynopsis() {
       </div>
 
       <div className="border-l border-line pl-6">
-        <p className="text-lg leading-9 text-muted">
+        <p className="text-justify text-lg leading-9 text-muted">
           Habían pasado años desde el día en que Ídreka se convirtió en una tierra corriente, 
           cuando los primeros marcados fueron desterrados y el continente se dividió en cuatro reinos. 
           Tras aquello, la calma habría regresado a sus hogares si el destierro no hubiera estado 
           acompañado por una promesa de venganza. 
         </p>
 
-        <p className="text-lg leading-9 text-muted">
+        <p className="text-justify text-lg leading-9 text-muted">
           El miedo a que regresaran estaba cerca de extinguirse cuando, doscientos treinta y tres 
           años tras la División, la magia renació. 
         </p>
 
-        <p className="text-lg leading-9 text-muted">
+        <p className="text-justify text-lg leading-9 text-muted">
           La noche en que las estrellas se dibujaron en el cielo teñidas de rojo, las madres dieron 
           a luz a criaturas prodigiosas, y los Templos vibraron con las voces de los doce Dioses anunciando 
           que aquella era la salvación que se le brindaba a la humanidad para cuando la guerra llegase.  
         </p>
         
-        <p className="text-lg leading-9 text-muted">
+        <p className="text-justify text-lg leading-9 text-muted">
           Pero no todos los enemigos de Ídreka están cruzando el mar, otras amenazas crecen en ella desde que 
           se dividió. Y los segundos marcados tendrán que enfrentarlas sin dejar una pregunta por resolver, 
           ni un secreto por descubrir. 
         </p>
-        <p className="mt-6 text-base leading-8 text-muted">
+        <p className="mt-6 text-justify text-base leading-8 text-muted">
           Este espacio puede crecer despues con una version mas literaria, un
           aviso de tono, edad recomendada o una pequena nota de la autora.
         </p>
