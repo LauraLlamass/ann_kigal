@@ -4,7 +4,6 @@
   --paper: #fbf4e8;
   --parchment: #dec9a0;
   --sage: #8d9a68;
-  --leather: #7e5629;
   --copper: #9a431c;
   --clay: #6f3016;
   --ink: #422b1d;
@@ -13,7 +12,6 @@
   --surface-strong: var(--clay);
   --line: var(--sage);
   --text: var(--ink);
-  --muted: var(--leather);
   --accent: var(--copper);
   --accent-strong: var(--clay);
 
@@ -27,7 +25,6 @@
   --color-paper: var(--paper);
   --color-parchment: var(--parchment);
   --color-sage: var(--sage);
-  --color-leather: var(--leather);
   --color-copper: var(--copper);
   --color-clay: var(--clay);
   --color-ink: var(--ink);

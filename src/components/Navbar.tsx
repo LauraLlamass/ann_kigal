@@ -54,7 +54,7 @@ export default function Navbar() {
                   className={
                     isActive
                       ? "rounded-xl bg-parchment px-4 py-2 text-ink no-underline shadow-sm"
-                      : "rounded-xl bg-paper px-4 py-2 text-muted no-underline shadow-sm transition duration-200 hover:-translate-y-0.5 hover:bg-parchment hover:text-ink hover:shadow-md active:translate-y-0"
+                      : "rounded-xl bg-paper px-4 py-2 text-ink no-underline shadow-sm transition duration-200 hover:-translate-y-0.5 hover:bg-parchment hover:text-ink hover:shadow-md active:translate-y-0"
                   }
                   href={link.href}
                   key={link.href}
@@ -84,7 +84,7 @@ export default function Navbar() {
                   className={
                     isActive
                       ? "rounded-xl bg-parchment px-4 py-3 text-ink no-underline shadow-sm"
-                      : "rounded-xl bg-paper px-4 py-3 text-muted no-underline shadow-sm transition duration-200 hover:-translate-y-0.5 hover:bg-parchment hover:text-ink hover:shadow-md active:translate-y-0"
+                      : "rounded-xl bg-paper px-4 py-3 text-ink no-underline shadow-sm transition duration-200 hover:-translate-y-0.5 hover:bg-parchment hover:text-ink hover:shadow-md active:translate-y-0"
                   }
                   href={link.href}
                   key={link.href}

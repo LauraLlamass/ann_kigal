@@ -114,7 +114,6 @@ surface        -> paper
 surface-strong -> clay
 line           -> sage
 text           -> ink
-muted          -> leather
 accent         -> copper
 accent-strong  -> clay
 ```
