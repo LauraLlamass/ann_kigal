@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Ann C. Kigal
 
-## Getting Started
+Web oficial de Ann C. Kigal, desarrollada con Next.js, React y Tailwind CSS. El proyecto esta pensado para crecer por secciones y componentes reutilizables.
 
-First, run the development server:
+## Arranque rapido
+
+Instalar dependencias:
+
+```bash
+npm install
+```
+
+Levantar el entorno local:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abrir en el navegador:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Comprobar que el proyecto compila:
 
-## Learn More
+```bash
+npm run build
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Estructura del proyecto
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- `app/`: rutas principales de la web. Cada carpeta suele representar una pagina, por ejemplo `app/about/page.tsx`.
+- `src/components/`: componentes reutilizables. Las secciones grandes de una pagina deberian vivir aqui.
+- `src/components/ui/`: componentes genericos de interfaz, como botones o enlaces.
+- `public/images/`: imagenes usadas por la web.
+- `public/icons/`: iconos sociales y otros recursos pequenos.
+- `docs/`: documentacion interna, como guia de colores o notas de despliegue.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Como tocar una pagina
 
-## Deploy on Vercel
+1. Busca la ruta en `app/`.
+2. Si el cambio es pequeno, ajusta el componente que ya usa esa pagina.
+3. Si la seccion empieza a crecer, crea un componente dentro de `src/components/`.
+4. Mantén la pagina como composicion de componentes, no como un archivo enorme.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Ejemplo:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```tsx
+export default function AboutPage() {
+  return (
+    <>
+      <AboutHero />
+      <AboutCreativeFocus />
+      <AboutCallout />
+    </>
+  );
+}
+```
+
+## Estilos
+
+Los colores base estan definidos en `app/globals.css` como variables CSS y expuestos a Tailwind. Antes de crear un color nuevo, revisa si ya existe uno parecido.
+
+Los componentes usan clases de Tailwind directamente. Conviene mantener estilos consistentes: mismas separaciones, mismos radios y mismos colores para elementos parecidos.
+
+## Antes de guardar cambios importantes
+
+Ejecuta:
+
+```bash
+npm run build
+```
+
+Si has tocado textos, enlaces o rutas, revisa la pagina en local y comprueba que los botones navegan a donde deben.
