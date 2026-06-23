@@ -19,12 +19,10 @@ const secondaryLinks = [
 export default function HomeFeatureLinks() {
   return (
     <section className="bg-paper">
-      <div className="mx-auto max-w-6xl border-y border-line px-6 py-20">
-        <article className="grid overflow-hidden rounded-xl border border-line bg-clay text-paper lg:grid-cols-[1fr_0.48fr]">
+      <div className="mx-auto max-w-6xl  px-6 py-20">
+        <article className="grid overflow-hidden rounded-xl  bg-clay text-paper lg:grid-cols-[1fr_0.48fr]">
           <div className="p-8 sm:p-10">
-            <p className="text-sm font-medium uppercase tracking-[0.2em] text-paper">
-              Obra destacada
-            </p>
+
             <h2 className="mt-4 max-w-2xl text-3xl font-semibold text-paper sm:text-4xl">
               Último libro publicado
             </h2>
@@ -41,8 +39,8 @@ export default function HomeFeatureLinks() {
             </ButtonLink>
           </div>
 
-          <div className="flex items-center justify-center border-t border-line p-4 ">
-            <div className="relative aspect-[2/3] w-full max-w-52 overflow-hidden rounded-xl border border-line bg-ink shadow-md">
+          <div className="flex items-center justify-center  p-4 ">
+            <div className="relative aspect-[2/3] w-full max-w-52 overflow-hidden rounded-xl  bg-ink shadow-md">
               <Image
                 src="/images/DLDF.jpg"
                 alt="Imagen provisional para el libro destacado"

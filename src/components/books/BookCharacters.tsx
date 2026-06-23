@@ -24,9 +24,7 @@ export default function BookCharacters() {
       <div className="mx-auto max-w-6xl px-6 py-16">
         <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
           <div>
-            <p className="text-sm font-semibold uppercase tracking-[0.22em] text-paper">
-              Personajes
-            </p>
+
             <h2 className="mt-3 text-4xl font-semibold text-paper sm:text-5xl">
               Rostros que habitan la historia
             </h2>

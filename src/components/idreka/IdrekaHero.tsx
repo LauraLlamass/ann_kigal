@@ -5,9 +5,7 @@ export default function IdrekaHero() {
   return (
     <section className="mx-auto grid w-full max-w-6xl items-center gap-10 px-6 py-16 lg:grid-cols-[1fr_0.42fr] lg:py-20">
       <div>
-        <p className="text-sm font-semibold uppercase tracking-[0.22em] text-copper">
-          Universo narrativo
-        </p>
+  
         <h1 className="mt-4 text-5xl font-semibold leading-[1.02] text-ink sm:text-6xl">
           Idreka
         </h1>

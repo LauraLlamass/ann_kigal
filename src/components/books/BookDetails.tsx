@@ -11,9 +11,7 @@ export default function BookDetails() {
   return (
     <section className="border-t border-line bg-paper">
       <div className="mx-auto max-w-6xl px-6 py-16">
-        <p className="text-sm font-semibold uppercase tracking-[0.22em] text-copper">
-          Dentro del libro
-        </p>
+  
         <h2 className="mt-3 text-4xl font-semibold text-ink sm:text-5xl">
           Tropos, tono y detalles
         </h2>

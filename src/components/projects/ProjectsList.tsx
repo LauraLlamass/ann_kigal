@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const projects = [
   {
-    title: "Nombre saga",
+    title: "Los segundos marcados",
     eyebrow: "Saga en construcción",
     text: "Universo narrativo de fantasia romantica donde vive Dos legados de furia, el primer libro de la saga.",
     href: "/projects/idreka",
@@ -16,9 +16,7 @@ export default function ProjectsList() {
     <section className="bg-paper text-ink">
       <div className="mx-auto w-full max-w-6xl px-6 py-16 lg:py-20">
         <div className="max-w-3xl">
-          <p className="text-sm font-semibold uppercase tracking-[0.22em] text-copper">
-            Proyectos
-          </p>
+
           <h1 className="mt-4 text-4xl font-semibold text-ink sm:text-5xl">
             Proyectos abiertos
           </h1>
@@ -61,7 +59,7 @@ export default function ProjectsList() {
                   href={project.href}
                   variant="sage"
                 >
-                  Entrar a 'nombre saga'
+                  Entrar a Ídreka
                 </ButtonLink>
               </div>
             </article>

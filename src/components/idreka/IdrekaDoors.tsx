@@ -3,9 +3,7 @@ import ButtonLink from "@/components/ui/ButtonLink";
 export default function IdrekaDoors() {
   return (
     <section className="mx-auto max-w-6xl px-6 py-16">
-      <p className="text-sm font-semibold uppercase tracking-[0.22em] text-copper">
-        Dentro de 'nombre saga'
-      </p>
+
       <h2 className="mt-3 text-4xl font-semibold text-ink sm:text-5xl">
         Primeras puertas del mundo
       </h2>

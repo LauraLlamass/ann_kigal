@@ -18,7 +18,7 @@ export default function BookHero() {
 
       <div>
         <p className="text-sm font-semibold uppercase tracking-[0.24em] text-copper">
-          Saga pendiente · Libro I
+          Los segundos marcados · Libro I
         </p>
         <h1 className="mt-4 max-w-3xl text-3xl font-semibold leading-[0.98] text-ink sm:text-4xl lg:text-5xl">
           Un libro para perderse entre promesas, magia y heridas abiertas.
