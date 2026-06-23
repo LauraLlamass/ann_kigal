@@ -15,9 +15,7 @@ export default function BriefAboutAnn() {
           />
         </div>
         <div className="border-l border-line pl-6">
-          <p className="text-sm font-medium uppercase tracking-[0.22em] text-copper">
-            Sobre Ann
-          </p>
+         
           <h2 className="mt-4 text-3xl font-semibold text-ink">
             Presentación pendiente
           </h2>
