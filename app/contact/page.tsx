@@ -1,16 +1,14 @@
+import ContactDetails from "@/components/contact/ContactDetails";
+import ContactForm from "@/components/contact/ContactForm";
+
 export default function ContactPage() {
   return (
-    <section className="mx-auto flex min-h-[70vh] w-full max-w-5xl flex-col justify-center px-6 py-20">
-      <p className="text-sm font-medium uppercase tracking-[0.2em] text-muted">
-        Contact
-      </p>
-      <h1 className="mt-4 text-4xl font-semibold text-ink sm:text-5xl">
-        Contact
-      </h1>
-      <p className="mt-6 max-w-2xl text-lg leading-8 text-muted">
-        Reach out to start a conversation about collaborations, services, or
-        upcoming projects.
-      </p>
+    <section className="bg-paper text-ink">
+      <div className="mx-auto grid max-w-6xl gap-10 px-6 py-16 md:grid-cols-[0.8fr_1px_1fr] lg:py-20">
+        <ContactDetails />
+        <div className="hidden bg-line md:block" />
+        <ContactForm />
+      </div>
     </section>
   );
 }
