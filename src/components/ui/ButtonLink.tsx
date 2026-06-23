@@ -1,3 +1,4 @@
+import Link from "next/link";
 import type { ReactNode } from "react";
 
 type ButtonLinkVariant = "accent" | "light" | "sage";
@@ -25,11 +26,11 @@ export default function ButtonLink({
   variant = "accent",
 }: ButtonLinkProps) {
   return (
-    <a
+    <Link
       className={`${baseClassName} ${variantClassNames[variant]} ${className}`.trim()}
       href={href}
     >
       {children}
-    </a>
+    </Link>
   );
 }
