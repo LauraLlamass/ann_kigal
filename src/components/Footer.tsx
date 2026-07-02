@@ -1,7 +1,7 @@
 const socialLinks = [
   { label: "Instagram", href: "https://www.instagram.com/annkigal/", icon: "/icons/instagram.svg" },
   { label: "TikTok", href: "https://www.tiktok.com/@annkigal?lang=es-419", icon: "/icons/tiktok.svg" },
-  { label: "Gmail", href: "#", icon: "/icons/gmail.svg" },
+  { label: "Gmail", href: "mailto:annckigal@gmail.com", icon: "/icons/gmail.svg" },
 ];
 
 export default function Footer() {

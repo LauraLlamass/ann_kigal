@@ -4,7 +4,7 @@ import Image from "next/image";
 const projects = [
   {
     title: "Los segundos marcados",
-    eyebrow: "Saga en construcción",
+    eyebrow: "Saga de fantasía",
     text: "Universo narrativo de fantasia romantica donde vive Dos legados de furia, el primer libro de la saga.",
     href: "/projects/idreka",
     image: "/images/DLDF.jpg",

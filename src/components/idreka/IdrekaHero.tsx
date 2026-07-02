@@ -7,7 +7,7 @@ export default function IdrekaHero() {
       <div>
   
         <h1 className="mt-4 text-5xl font-semibold leading-[1.02] text-ink sm:text-6xl">
-          Idreka
+          Ídreka
         </h1>
         <p className="mt-6 max-w-2xl text-justify text-base leading-8 text-muted">
           Portal de la saga: libros, regiones, personajes, magia y piezas del
