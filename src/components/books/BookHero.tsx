@@ -21,15 +21,11 @@ export default function BookHero() {
           Los segundos marcados · Libro I
         </p>
         <h1 className="mt-4 max-w-3xl text-3xl font-semibold leading-[0.98] text-ink sm:text-4xl lg:text-5xl">
-          Un libro para perderse entre promesas, magia y heridas abiertas.
-        </h1>
+          La magia ha renacido en una tierra dividida, y los segundos marcados deberán descubrir quién es el verdadero enemigo.        </h1>
         <blockquote className="mt-7 max-w-2xl border-l border-line pl-5 text-2xl font-medium italic leading-9 text-muted">
-          "Frase rechulona que me tienes que decir jvbrg vñjsgvnvbejv hvbev ihggbev shgvbsv ."
+          "¿Qué puede hacerle la guerra a un lugar que nunca ha conocido la paz?"
         </blockquote>
-        <p className="mt-6 max-w-2xl text-justify text-base leading-8 text-muted">
-          Presentacion provisional del universo del libro: su tono, su saga y
-          la promesa emocional que encontrara quien entre en la historia.
-        </p>
+
         <div className="mt-8 flex flex-wrap gap-3">
           <ButtonLink href="/contact" variant="sage">
             Preguntar por el libro

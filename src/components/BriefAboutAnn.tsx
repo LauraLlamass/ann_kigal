@@ -14,17 +14,13 @@ export default function BriefAboutAnn() {
             sizes="(min-width: 1024px) 420px, 100vw"
           />
         </div>
-        <div className="border-l border-line pl-6">
+        <div className="flex flex-col justify-center border-l border-line pl-6 lg:self-stretch">
          
-          <h2 className="mt-4 text-3xl font-semibold text-ink">
-            Presentación pendiente
-          </h2>
           <p className="mt-3 text-sm font-semibold uppercase tracking-[0.16em] text-muted">
             Autora · Editora · Ilustradora
           </p>
           <p className="mt-5 max-w-2xl text-justify text-base leading-8 text-muted">
-            Bio breve provisional: quién es, qué escribe, qué temas atraviesan
-            su obra y por qué el lector debería seguir leyendo.
+           Ann C. Kigal es una escritora, ilustradora y filóloga valenciana
           </p>
           <ButtonLink className="mt-7 w-fit" href="/about" variant="sage">
             Leer biografía
