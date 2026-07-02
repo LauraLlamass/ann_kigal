@@ -8,9 +8,24 @@ export default function AboutHero() {
           <h1 className="mt-4 max-w-3xl text-4xl font-semibold text-ink sm:text-5xl lg:text-6xl">
             Ann C. Kigal
           </h1>
-          <p className="mt-6 max-w-2xl text-justify text-lg leading-8 text-muted">
-           Ann C. Kigal es una escritora, ilustradora y filóloga valenciana, ganadora del Premio Jurado Joven de los  Premios juveniles de literatura breve  ciudad de Mislata, que también trabaja como correctora y editora para otras voces femeninas jóvenes.
-          </p>
+          <div className="mt-6 max-w-2xl space-y-5 text-justify text-lg leading-8 text-muted">
+            <p>
+              Ann C. Kigal es una escritora, ilustradora y filóloga valenciana.
+              En su trabajo conviven la creación literaria, la construcción de
+              mundos de fantasía y el desarrollo visual de sus personajes.
+            </p>
+            <p>
+              Es autora de Dos legados de furia, la primera entrega de la saga
+              Los segundos marcados, y actualmente trabaja en la escritura del
+              segundo libro. Su universo narrativo se expande también a través
+              de mapas, retratos y otras piezas ilustradas.
+            </p>
+            <p>
+              Ganadora del premio del Jurado Joven en los Premios Juveniles de
+              Literatura Breve de Mislata, también acompaña a otras autoras
+              jóvenes como correctora y editora de sus manuscritos.
+            </p>
+          </div>
         </div>
 
         <div className="relative min-h-80 overflow-hidden rounded-xl border border-line bg-clay md:min-h-[28rem]">

@@ -4,7 +4,7 @@ import Image from "next/image";
 const categories = [
   "Libros",
   "Newsletter",
-  "Corrección editorial",
+  "Corrección y edición",
   "Ilustración",
 ];
 
@@ -18,8 +18,9 @@ export default function Hero() {
             Ann C. Kigal
           </h1>
           <p className="mt-5 max-w-lg text-justify text-base leading-7 text-muted sm:text-lg sm:leading-8">
-             Bienvenida/o al espacio de Ann C. Kigal, escritora, filóloga e ilustradora valenciana. 
-             Descubre aquí su obra, sus proyectos y su universo literario.
+            Te doy la bienvenida a mi espacio. Soy Ann C. Kigal, escritora,
+            filóloga e ilustradora valenciana. Descubre aquí mi obra, mis
+            proyectos y mi universo literario.
           </p>
 
           <div className="mt-7 flex flex-wrap gap-3">

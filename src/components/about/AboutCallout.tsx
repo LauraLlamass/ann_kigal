@@ -13,8 +13,9 @@ export default function HomeFeatureLinks() {
               Último libro publicado
             </h2>
             <p className="mt-5 max-w-2xl text-justify text-base leading-8 text-paper">
-              Espacio reservado para destacar la obra más reciente, su
-              atmósfera y el tipo de lector al que invita.
+              Dos legados de furia abre las puertas de Ídreka, una tierra
+              dividida donde la magia ha renacido y la guerra amenaza con
+              revelar antiguos secretos.
             </p>
             <ButtonLink
               className="mt-7"
@@ -29,7 +30,7 @@ export default function HomeFeatureLinks() {
             <div className="relative aspect-[2/3] w-full max-w-52 overflow-hidden rounded-xl bg-ink shadow-md">
               <Image
                 src="/images/DLDF.jpg"
-                alt="Imagen provisional para el libro destacado"
+                alt="Portada de Dos legados de furia, de Ann C. Kigal"
                 fill
                 className="object-contain"
                 sizes="(min-width: 1024px) 256px, 70vw"

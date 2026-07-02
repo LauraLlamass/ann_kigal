@@ -7,7 +7,7 @@ export default function BookHero() {
       <div className="relative mx-auto aspect-[2/3] w-full max-w-sm overflow-hidden rounded-xl border border-line bg-clay shadow-md lg:mx-0">
         <Image
           src="/images/DLDF.jpg"
-          alt="Portada provisional del libro"
+          alt="Portada de Dos legados de furia, de Ann C. Kigal"
           fill
           priority
           className="object-contain p-3"

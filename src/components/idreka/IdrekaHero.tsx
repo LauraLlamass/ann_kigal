@@ -17,7 +17,6 @@ export default function IdrekaHero() {
           <ButtonLink href="/projects/idreka/dos-legados-de-furia" variant="sage">
             Leer Libro I
           </ButtonLink>
-          <ButtonLink href="#mapa">Explorar mapa</ButtonLink>
         </div>
       </div>
 

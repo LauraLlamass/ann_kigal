@@ -16,8 +16,9 @@ const cormorant = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
-  title: "Ann C. Kigal",
-  description: "Web oficial de Ann C. Kigal.",
+  title: "Ann C. Kigal | Escritora e ilustradora",
+  description:
+    "Web de Ann C. Kigal, escritora, ilustradora y filóloga valenciana. Descubre sus libros, el universo de Ídreka y sus servicios de corrección, edición e ilustración.",
 };
 
 export default function RootLayout({

@@ -1,15 +1,15 @@
 const focusItems = [
   {
     title: "Escritura",
-    text: "Historias de fantasia y emocion, con personajes marcados por decisiones, legados y mundos que se expanden poco a poco.",
+    text: "Historias de fantasía y emoción, con personajes marcados por decisiones, legados y mundos que se expanden poco a poco.",
   },
   {
-    title: "Edicion",
-    text: "Cuidado por la estructura, el ritmo y la coherencia interna de cada proyecto, desde la primera idea hasta una version mas pulida.",
+    title: "Edición",
+    text: "Cuidado por la estructura, el ritmo y la coherencia interna de cada proyecto, desde la primera idea hasta una versión más pulida.",
   },
   {
-    title: "Ilustracion",
-    text: "Imagenes, referencias visuales y detalles graficos que acompanan el tono de los libros y ayudan a dar forma al universo.",
+    title: "Ilustración",
+    text: "Imágenes, referencias visuales y detalles gráficos que acompañan el tono de los libros y ayudan a dar forma al universo.",
   },
 ];
 

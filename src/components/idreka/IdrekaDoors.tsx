@@ -37,8 +37,8 @@ export default function IdrekaDoors() {
             Regiones y reinos
           </h3>
           <p className="mt-3 text-justify text-sm leading-7 text-muted">
-            Bloque preparado para fichas de regiones, reinos, templos o
-            territorios cuando el mapa este listo.
+            Descubre los reinos, templos y territorios que componen Ídreka y
+            sitúa en el mapa los escenarios de la saga.
           </p>
         </article>
       </div>
