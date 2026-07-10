@@ -5,10 +5,10 @@ export default function IdrekaDoors() {
     <section className="mx-auto max-w-6xl px-6 py-16">
 
       <h2 className="mt-3 text-4xl font-semibold text-ink sm:text-5xl">
-        Primeras puertas del mundo
+        Primera puerta del mundo
       </h2>
 
-      <div className="mt-8 grid gap-5 md:grid-cols-2">
+      <div className="mt-8 max-w-xl">
         <article className="rounded-xl border border-line bg-paper p-6 text-ink">
           <p className="text-xs font-semibold uppercase tracking-[0.18em] text-copper">
             Libro I
@@ -17,8 +17,8 @@ export default function IdrekaDoors() {
             Dos legados de furia
           </h3>
           <p className="mt-3 text-justify text-sm leading-7 text-muted">
-            La primera entrada a la saga, con sinopsis, personajes y detalles
-            del tono narrativo.
+            La primera entrada a la saga, con <strong>sinopsis, personajes</strong>{" "}
+            y detalles del tono narrativo.
           </p>
           <ButtonLink
             className="mt-6 w-fit px-5"
@@ -29,18 +29,6 @@ export default function IdrekaDoors() {
           </ButtonLink>
         </article>
 
-        <article className="rounded-xl border border-line bg-paper p-6 text-ink">
-          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-copper">
-            Atlas
-          </p>
-          <h3 className="mt-3 text-2xl font-semibold text-ink">
-            Regiones y reinos
-          </h3>
-          <p className="mt-3 text-justify text-sm leading-7 text-muted">
-            Descubre los reinos, templos y territorios que componen Ídreka y
-            sitúa en el mapa los escenarios de la saga.
-          </p>
-        </article>
       </div>
     </section>
   );

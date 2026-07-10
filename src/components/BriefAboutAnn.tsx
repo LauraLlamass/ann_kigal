@@ -20,7 +20,7 @@ export default function BriefAboutAnn() {
             Autora · Correctora · Editora · Ilustradora
           </p>
           <p className="mt-5 max-w-2xl text-justify text-base leading-8 text-muted">
-           Ann C. Kigal es una escritora, ilustradora y filóloga valenciana
+           Ann C. Kigal es una <strong>escritora, ilustradora y filóloga valenciana</strong>
           </p>
           <ButtonLink className="mt-7 w-fit" href="/about" variant="sage">
             Leer biografía

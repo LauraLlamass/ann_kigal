@@ -10,8 +10,8 @@ export default function IdrekaHero() {
           Ídreka
         </h1>
         <p className="mt-6 max-w-2xl text-justify text-base leading-8 text-muted">
-          Portal de la saga: libros, regiones, personajes, magia y piezas del
-          mundo que rodea a Dos legados de furia.
+          Portal de la saga: <strong>libros, regiones, personajes y magia</strong>{" "}
+          del mundo que rodea a <strong>Dos legados de furia</strong>.
         </p>
         <div className="mt-8 flex flex-wrap gap-3">
           <ButtonLink href="/projects/idreka/dos-legados-de-furia" variant="sage">

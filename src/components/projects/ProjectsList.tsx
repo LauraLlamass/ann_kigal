@@ -5,7 +5,12 @@ const projects = [
   {
     title: "Los segundos marcados",
     eyebrow: "Saga de fantasía",
-    text: "Universo narrativo de fantasía romántica donde vive Dos legados de furia, el primer libro de la saga.",
+    text: (
+      <>
+        Universo narrativo de <strong>fantasía romántica</strong> donde vive{" "}
+        <strong>Dos legados de furia</strong>, el primer libro de la saga.
+      </>
+    ),
     href: "/projects/idreka",
     image: "/images/DLDF.jpg",
   },
@@ -16,7 +21,9 @@ export default function ProjectsList() {
     <section className="bg-paper text-ink">
       <div className="mx-auto w-full max-w-6xl px-6 py-16 lg:py-20">
         <div className="max-w-3xl">
-          
+          <h1 className="text-4xl font-semibold text-ink sm:text-5xl lg:text-6xl">
+            Proyectos
+          </h1>
         </div>
 
         <div className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-3">

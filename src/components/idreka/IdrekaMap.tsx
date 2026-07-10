@@ -12,8 +12,9 @@ export default function IdrekaMap() {
             Regiones por descubrir
           </h2>
           <p className="mt-5 text-justify text-base leading-8 text-paper">
-            Recorre los reinos, templos, puertos y fronteras que dan forma al
-            mundo de Ídreka y a los conflictos de la saga.
+            Recorre los <strong>reinos, templos, puertos y fronteras</strong> que
+            dan forma al mundo de <strong>Ídreka</strong> y a los conflictos de
+            la saga.
           </p>
         </div>
 

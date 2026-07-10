@@ -14,20 +14,21 @@ export default function BookSynopsis() {
         <div className="space-y-6 border-l border-paper/30 pl-6">
           <p className="text-justify text-lg leading-9 text-paper">
             Habían pasado años desde el día en que Ídreka se convirtió en una
-            tierra corriente, cuando los primeros marcados fueron desterrados y
-            el continente se dividió en cuatro reinos. Tras aquello, la calma
+            tierra corriente, cuando los <strong>primeros marcados</strong> fueron
+            desterrados y el continente se dividió en <strong>cuatro reinos</strong>.
+            Tras aquello, la calma
             habría regresado a sus hogares si el destierro no hubiera estado
             acompañado por una promesa de venganza.
           </p>
 
           <p className="text-justify text-lg leading-9 text-paper">
             El miedo a que regresaran estaba cerca de extinguirse cuando,
-            doscientos treinta y tres años tras la División, la magia renació.
+            doscientos treinta y tres años tras la División, <strong>la magia renació</strong>.
           </p>
 
           <p className="text-justify text-lg leading-9 text-paper">
             La noche en que las estrellas se dibujaron en el cielo teñidas de
-            rojo, las madres dieron a luz a criaturas prodigiosas y los Templos
+            rojo, las madres dieron a luz a <strong>criaturas prodigiosas</strong> y los Templos
             vibraron con las voces de los doce Dioses anunciando que aquella era
             la salvación que se le brindaba a la humanidad para cuando la guerra
             llegase.
@@ -35,7 +36,7 @@ export default function BookSynopsis() {
 
           <p className="text-justify text-lg leading-9 text-paper">
             Pero no todos los enemigos de Ídreka cruzan el mar: otras amenazas
-            crecen en ella desde que se dividió. Los segundos marcados tendrán
+            crecen en ella desde que se dividió. <strong>Los segundos marcados</strong> tendrán
             que enfrentarlas sin dejar una pregunta por resolver ni un secreto
             por descubrir.
           </p>

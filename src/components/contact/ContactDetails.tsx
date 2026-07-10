@@ -23,12 +23,13 @@ export default function ContactDetails() {
         </h1>
         <div className="mt-7 space-y-5 text-justify text-base leading-8 text-ink">
           <p>
-            Envía una consulta, una propuesta o una idea que quieras contar con
-            calma.
+            Envía <strong>una consulta, una propuesta o una idea</strong> que
+            quieras contar con calma.
           </p>
           <p>
-            Si tienes un proyecto creativo, una colaboración o una pregunta
-            sobre la obra de Ann, este es un buen lugar para empezar.
+            Si tienes un <strong>proyecto creativo, una colaboración o una
+            pregunta sobre la obra de Ann</strong>, este es un buen lugar para
+            empezar.
           </p>
         </div>
       </div>

@@ -57,8 +57,9 @@ export default function IllustrationService() {
               Ilustración
             </h2>
             <p className="mt-6 text-justify text-base leading-8 text-paper">
-              Personajes, escenas y piezas visuales creadas para dar forma a
-              mundos narrativos y acompañar la identidad de cada proyecto.
+              <strong>Personajes, escenas y piezas visuales</strong> creadas para
+              dar forma a mundos narrativos y acompañar la identidad de cada
+              proyecto.
             </p>
           </div>
 
@@ -74,8 +75,8 @@ export default function IllustrationService() {
               ))}
             </ul>
             <p className="mt-7 text-sm leading-7 text-paper">
-              Cada ilustración se presupuesta de forma personalizada según su
-              complejidad, acabado y uso final.
+              Cada ilustración se presupuesta de forma personalizada según su{" "}
+              <strong>complejidad, acabado y uso final</strong>.
             </p>
             <ButtonLink className="mt-8" href="/contact" variant="light">
               Solicitar una ilustración

@@ -1,4 +1,11 @@
+import type { Metadata } from "next";
 import ContactDetails from "@/components/contact/ContactDetails";
+
+export const metadata: Metadata = {
+  title: "Contacto",
+  description:
+    "Contacta con Ann C. Kigal para consultas, colaboraciones, corrección de manuscritos o encargos de ilustración.",
+};
 
 export default function ContactPage() {
   return (

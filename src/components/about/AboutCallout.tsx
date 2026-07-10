@@ -13,9 +13,9 @@ export default function HomeFeatureLinks() {
               Último libro publicado
             </h2>
             <p className="mt-5 max-w-2xl text-justify text-base leading-8 text-paper">
-              Dos legados de furia abre las puertas de Ídreka, una tierra
-              dividida donde la magia ha renacido y la guerra amenaza con
-              revelar antiguos secretos.
+              <strong>Dos legados de furia</strong> abre las puertas de{" "}
+              <strong>Ídreka</strong>, una tierra dividida donde la magia ha
+              renacido y la guerra amenaza con revelar antiguos secretos.
             </p>
             <ButtonLink
               className="mt-7"

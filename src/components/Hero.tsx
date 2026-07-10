@@ -18,8 +18,8 @@ export default function Hero() {
             Ann C. Kigal
           </h1>
           <p className="mt-5 max-w-lg text-justify text-base leading-7 text-muted sm:text-lg sm:leading-8">
-            Te doy la bienvenida a mi espacio. Soy Ann C. Kigal, escritora,
-            filóloga e ilustradora valenciana. Descubre aquí mi obra, mis
+            Te doy la bienvenida a mi espacio. Soy Ann C. Kigal, <strong>escritora,
+            filóloga e ilustradora valenciana</strong>. Descubre aquí mi obra, mis
             proyectos y mi universo literario.
           </p>
 

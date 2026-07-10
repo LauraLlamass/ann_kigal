@@ -12,8 +12,9 @@ export default function NewsletterCallout() {
             Recibe novedades y cartas de Ann
           </h2>
           <p className="mt-4 max-w-2xl text-justify text-base leading-8 text-paper">
-            Una pequeña puerta a nuevos libros, procesos creativos, lecturas,
-            ilustraciones y noticias antes de que lleguen a la web.
+            Una pequeña puerta a <strong>nuevos libros</strong>,{" "}
+            <strong>procesos creativos</strong>, lecturas, ilustraciones y
+            noticias antes de que lleguen a la web.
           </p>
         </div>
 
