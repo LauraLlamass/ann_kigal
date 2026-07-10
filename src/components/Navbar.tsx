@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
@@ -27,11 +28,22 @@ export default function Navbar() {
       <nav className="w-full px-6" aria-label="Principal">
         <div className="flex min-h-16 items-center justify-between gap-6">
           <Link
-            className="text-lg font-semibold tracking-wide text-paper no-underline"
+            className="flex min-w-0 items-center gap-3 text-lg font-semibold tracking-wide text-paper no-underline"
             href="/"
             onClick={() => setIsMenuOpen(false)}
           >
-            Ann C. Kigal
+            <span className="flex size-12 shrink-0 items-center justify-center rounded-full bg-paper shadow-sm">
+              <Image
+                src="/images/logo-ann-kigal-ink.png"
+                alt=""
+                width={48}
+                height={49}
+                priority
+                className="h-10 w-10 object-contain"
+                sizes="40px"
+              />
+            </span>
+            <span className="truncate">Ann C. Kigal</span>
           </Link>
 
           <button

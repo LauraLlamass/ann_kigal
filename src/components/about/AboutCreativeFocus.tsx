@@ -21,10 +21,10 @@ export default function AboutCreativeFocus() {
         <div className="mt-5 grid gap-6 md:grid-cols-3">
           {focusItems.map((item) => (
             <article
-              className="rounded-lg border border-line bg-paper p-6 shadow-sm"
+              className="rounded-lg  border border-line bg-paper p-6 shadow-sm"
               key={item.title}
             >
-              <h3 className="text-2xl font-semibold text-ink">
+              <h3 className="text-2xl font-bold text-ink">
                 {item.title}
               </h3>
               <p className="mt-4 text-justify text-base leading-7 text-ink">

@@ -30,8 +30,8 @@ export default function AboutHero() {
 
         <div className="relative min-h-80 overflow-hidden rounded-xl border border-line bg-clay md:min-h-[28rem]">
           <Image
-            src="/images/fotobase.png"
-            alt="Retrato editorial provisional de Ann C. Kigal"
+            src="/images/foto_ann.jpg"
+            alt="Retrato editorial de Ann C. Kigal"
             fill
             priority
             className="object-cover"
