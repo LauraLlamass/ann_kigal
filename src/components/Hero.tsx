@@ -43,7 +43,7 @@ export default function Hero() {
 
         <div className="relative min-h-[420px] overflow-hidden rounded-xl border border-line bg-clay lg:min-h-[580px]">
           <Image
-            src="/images/foto_ann.jpg"
+            src="/images/foto_ann.JPG"
             alt="Imagen editorial de Ann C. Kigal"
             fill
             priority

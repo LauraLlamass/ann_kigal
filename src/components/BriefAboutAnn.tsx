@@ -7,7 +7,7 @@ export default function BriefAboutAnn() {
       <div className="mx-auto grid max-w-5xl gap-8 px-6 py-16 lg:grid-cols-[0.42fr_1fr] lg:items-center">
         <div className="relative min-h-72 overflow-hidden rounded-xl border border-line bg-clay">
           <Image
-            src="/images/foto_ann.jpg"
+            src="/images/foto_ann.JPG"
             alt="Imagen editorial de Ann C. Kigal"
             fill
             className="object-cover"
