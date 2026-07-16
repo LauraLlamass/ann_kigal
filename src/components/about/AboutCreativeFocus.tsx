@@ -39,9 +39,9 @@ export default function AboutCreativeFocus() {
               className="rounded-lg  border border-line bg-paper p-6 shadow-sm"
               key={item.title}
             >
-              <h3 className="text-2xl font-bold text-ink">
+              <h2 className="text-2xl font-bold text-ink">
                 {item.title}
-              </h3>
+              </h2>
               <p className="mt-4 text-justify text-base leading-7 text-ink">
                 {item.text}
               </p>
