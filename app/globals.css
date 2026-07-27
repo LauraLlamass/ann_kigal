@@ -56,3 +56,60 @@ blockquote {
 .bg-accent {
   color: var(--paper);
 }
+
+:where(section.bg-paper, div.bg-paper.text-ink) {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+}
+
+:where(section.bg-paper, div.bg-paper.text-ink)::before,
+:where(section.bg-paper, div.bg-paper.text-ink)::after {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background-color: var(--copper);
+  content: "";
+  opacity: 0.24;
+  pointer-events: none;
+}
+
+:where(section.bg-paper, div.bg-paper.text-ink)::before {
+  -webkit-mask-image: url("/images/logo-ann-kigal.png"),
+    url("/images/logo-ann-kigal.png"), url("/images/logo-ann-kigal.png"),
+    url("/images/logo-ann-kigal.png");
+  -webkit-mask-position: 2% 5%, 97% 22%, 78% 76%, 7% 96%;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: 7rem, 5rem, 6rem, 5.5rem;
+  mask-image: url("/images/logo-ann-kigal.png"),
+    url("/images/logo-ann-kigal.png"), url("/images/logo-ann-kigal.png"),
+    url("/images/logo-ann-kigal.png");
+  mask-position: 2% 5%, 97% 22%, 78% 76%, 7% 96%;
+  mask-repeat: no-repeat;
+  mask-size: 7rem, 5rem, 6rem, 5.5rem;
+}
+
+:where(section.bg-paper, div.bg-paper.text-ink)::after {
+  -webkit-mask-image: url("/images/logo-ann-kigal.png"),
+    url("/images/logo-ann-kigal.png"), url("/images/logo-ann-kigal.png");
+  -webkit-mask-position: 27% 56%, 96% 96%, 53% 4%;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: 4.5rem, 6.5rem, 4rem;
+  mask-image: url("/images/logo-ann-kigal.png"),
+    url("/images/logo-ann-kigal.png"), url("/images/logo-ann-kigal.png");
+  mask-position: 27% 56%, 96% 96%, 53% 4%;
+  mask-repeat: no-repeat;
+  mask-size: 4.5rem, 6.5rem, 4rem;
+}
+
+:where(section.bg-paper, div.bg-paper.text-ink) > * {
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 640px) {
+  :where(section.bg-paper, div.bg-paper.text-ink)::before,
+  :where(section.bg-paper, div.bg-paper.text-ink)::after {
+    opacity: 0.18;
+  }
+}

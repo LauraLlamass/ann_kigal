@@ -1,35 +1,9 @@
-import ButtonLink from "@/components/ui/ButtonLink";
+import IdrekaCharityNotice from "@/components/idreka/IdrekaCharityNotice";
 
 export default function IdrekaDoors() {
   return (
     <section className="mx-auto max-w-6xl px-6 py-16">
-
-      <h2 className="mt-3 text-4xl font-semibold text-ink sm:text-5xl">
-        Primera puerta del mundo
-      </h2>
-
-      <div className="mt-8 max-w-xl">
-        <article className="rounded-xl border border-line bg-paper p-6 text-ink">
-          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-copper">
-            Libro I
-          </p>
-          <h3 className="mt-3 text-2xl font-semibold text-ink">
-            Dos legados de furia
-          </h3>
-          <p className="mt-3 text-justify text-sm leading-7 text-muted">
-            La primera entrada a la saga, con <strong>sinopsis, personajes</strong>{" "}
-            y detalles del tono narrativo.
-          </p>
-          <ButtonLink
-            className="mt-6 w-fit px-5"
-            href="/projects/idreka/dos-legados-de-furia"
-            variant="sage"
-          >
-            Ver libro
-          </ButtonLink>
-        </article>
-
-      </div>
+      <IdrekaCharityNotice />
     </section>
   );
 }
