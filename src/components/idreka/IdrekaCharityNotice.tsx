@@ -6,7 +6,7 @@ export default function IdrekaCharityNotice() {
           Una saga con propósito
         </p>
         <h2 className="mt-3 text-3xl font-semibold text-ink sm:text-4xl">
-          Todas las ganancias se destinan a Oprea Life
+          Todas las ganancias se destinan a Operation Realife
         </h2>
         <p className="mx-auto mt-3 max-w-2xl text-sm leading-7 text-ink sm:text-base">
           Con cada compra de un libro de la saga Ídreka colaboras con esta
