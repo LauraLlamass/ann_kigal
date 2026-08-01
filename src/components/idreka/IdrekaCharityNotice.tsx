@@ -18,7 +18,7 @@ export default function IdrekaCharityNotice() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Conocer Oprea Life
+          Conocer Operation Realife
           <span className="ml-2" aria-hidden="true">
             ↗
           </span>
